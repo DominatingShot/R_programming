@@ -1,0 +1,20 @@
+d<-'Megha'
+e<-"Arpita"
+f<-65
+f<-as.character(f)
+print(d)
+print(e)
+print(f)
+class(d)
+class(e)
+class(f)
+char_vec<-c(1,2,3,4)
+char_vec<-as.character(char_vec)
+char_vec1<-c("shubham","arpita","nishka","vaishali")
+print(char_vec)
+print(char_vec1)
+class(char_vec)
+class(char_vec1)
+h<-paste(d,e,sep=" ")
+print(h)
+i<-cat(d,e,sep=" ",end=" ",append=TRUE)

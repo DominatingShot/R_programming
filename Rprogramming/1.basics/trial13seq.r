@@ -1,0 +1,5 @@
+print(seq(23,35,length.out=4))
+print(seq(10,25,by=2))
+print(mean(seq(10,20)))
+print(sum(seq(1,10)))
+print(abs(-2.3))

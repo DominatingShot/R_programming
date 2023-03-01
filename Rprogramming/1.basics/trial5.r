@@ -1,0 +1,1 @@
+cat("a","b","c",file="trial.csv",sep = " ",end="\n",append = TRUE)

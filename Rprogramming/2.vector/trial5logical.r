@@ -1,0 +1,12 @@
+d<-5L
+e<-as.integer(6)
+f<-as.integer(7)
+g<-d>e
+h<-e<f
+print(g)
+print(h)
+log_vec<-c(d<e,d<f,e<d,e<f,f<d,f<e)
+log_vec
+class(g)
+class(h)
+class(log_vec)
